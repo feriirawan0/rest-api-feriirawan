@@ -1,0 +1,154 @@
+.Apa itu REST API
+.JSON
+    .membuat & mengakses 
+.PUBLIC API
+    .simple/complex auth
+.Membuat REST Server
+
+
+
+Ilustrasi :
+    .api adalah penghubung
+    .rest api adalah aturan
+    .ada request & response
+    .data yang dikirim/diterima berupa JSON
+REST api    
+    .REpresentasional State Transfer
+    .Gaya perancangan / Architectural Style
+    .Stateless
+    .By. Roy Fielding, di disertasi PhD-nya
+    .hampir selalu menggunakan HTTP
+    .memungkinkan interaksi antar mesin
+HTTP
+    .hypertext transfer protokol
+URL : URL (uniform resource locator)
+    .alamat dari sebuag resource yang dapat siakses di internet
+    .contoh :  https://www.google.com/search?client=opera&q=facebook&sourceid=opera&ie=UTF-8&oe=UTF-8
+    .emskipun bisa diubah dengan mod_rewrite atau .htaccess
+
+HTTP Method/Verbs (REST FULL / endpints)
+    .GET 
+        .mengambil data
+    .POST
+        .menambah data
+    .PUT 
+        .mengubah data
+    .DELETE
+        .mengahpus data
+
+Stateless
+    .Setiap request HTTP dilakukan secara terisoalasi
+    .Server tidak menyimpan state apapun mengenai sesi dari client
+    .setiap request dari client harus berisi semua informasi yang dibutuhkan server, termasuk informasi otentikasi.
+
+RESTful Api.
+    .menggunakan HTTP method yang benar.
+    .URL / endpoints nya menggunakan kata benda, bukan kata kerja.
+    .Stateless
+
+JOSN 'javascript object notation' adalah sebuah file format standar menggunakan tulisan yang 
+        dapat dibaca oleh manusiauntuk pertukan data, yang di dalamnnuau berisi pasangan antara key dna value.
+
+JSON
+    .format pertukan data terkstual yang sangat ringan
+    .sintaksnya sangat sederhana dan jelas (dibanding XML)
+    .dapat digunakan pada beragam bahasa pemrogramman
+    .tiap bahasa pemrogramman memiliki cara tersendiri untuk berinteraksi dengan JOSN
+    .dibuat berdasarkan format objc pada javascript
+    .digunnkan juga untuk file konfigurasi (tidak disarankan)
+    .tipe file JSON memiliki .json 
+    .format JSON dibuat dan diusulkan oleh Douglas Crockford
+
+Format penulisan JSON 
+    . menggukan kutip ""
+Tipe Data dari Value pada JSON
+    .boolean - true/false
+    .array - ["value1", "value2",...]
+    .string - teks/unicode, dibungkus menggukan ""
+    .object - {"key": "value"}
+    .number - interger /float
+    .null - null
+
+PHP 
+    .json_encode()
+    .json_decode()
+
+mengakses JSON
+    .file_get_contents()
+
+javascript
+    .json.stringify()
+    .json.parse()
+
+mengakses JSON
+.ajax
+    .XMLHttpRequest
+    .JQuery
+    
+
+Same-origin Policy
+    .kebijakan browser untuk mengakses dan menampilkan data/script/document dari tempat lain diluar doamain-nya
+    .membuat kita tidak bisa mengakses data(.json) dari luar domain/website
+
+CORS (Cross Origin Resource Sharing)
+    .mekanisme yang membuat kita dapat mengakses sebuah resource (data, document, script) dari domain lain
+    .caranya dalah dengan membuat server memperbolehkan adanya akses data dari luar doamain
+    . memodifikasi Access-Control-Allow-Origin
+    .membuat file .htassess
+    
+Public API
+    sebuah API(REST API) yang dapat diakses secara publik, yang di dalamnya tersedia aturan untuk developer agar dapat mengakses data.
+    link : http://any-api.com/
+    link : https://github.com/public-apis/public-apis
+    link : https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA
+
+Otentikasi (Auth)
+    .tanpa otentikasi
+    .key/token
+    .OAuth
+
+    .CORS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

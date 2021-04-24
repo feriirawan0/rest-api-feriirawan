@@ -1,0 +1,28 @@
+[
+    {
+    "nama" : "feri irawan",
+    "umur" : "8912989812",
+    "lulus" : true,
+    "hobby" : [
+        "coding",
+        "gaming"
+    ],
+    "pembimbing" : {
+        "pembimbing1" : "karna",
+        "pembimbing2" : "Dadang"
+    }
+},
+    {
+        "nama" : "feri irawan",
+        "umur" : "8912989812",
+        "lulus" : true,
+        "hobby" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "karna",
+            "pembimbing2" : "Dadang"
+        }
+    }
+]
